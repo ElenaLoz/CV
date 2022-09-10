@@ -40,6 +40,7 @@ body {
   display: grid;
   grid-template-areas:
     "img title"
+    "img subtitile"
     "img subtitile";
   width: 320px;
   column-gap: 20px;

@@ -52,8 +52,8 @@ body {
 .header__avatar {
   border-radius: 50%;
   grid-area: img;
-  width: 80px;
-  height: 80px;
+  width: 95px;
+  height: 95px;
 }
 
 .header__title {
@@ -119,6 +119,10 @@ body {
   width: 280px;
 }
 
+a:hover {
+  color: var(--gray-color);
+}
+
 .links__link:last-child {
   border-bottom: none;
 }
@@ -126,7 +130,7 @@ body {
 .linsk__link,
 .links__link:visited {
   text-decoration: none;
-  color: var(--linktext);
+  color: #a7641b ;
 }
 
 .links__title {
